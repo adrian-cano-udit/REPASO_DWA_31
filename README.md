@@ -11,3 +11,8 @@ CREAR ESTRUCTURA BÁSICA DEL HTML
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 Esta etiqueta <meta> es indispensable si vamos a crear una web responsive
+
+
+CSS 
+
+El selector universal * -> selecciona todos los elementos del HTML.
