@@ -32,3 +32,13 @@ SELECTORES COMBINADOS DE CSS:
 header > p -> selecciona todos los elementos p que son hijos directos de header
 
 header p -> selcciona todos los p que son hijos de un header a cualquier nivel (puede haber un p dentro de un div)
+
+
+TAREAS A REALIZAR:
+
+Centrar todo el texto del header.
+
+Convertir el nav y ul y li, en un menu horizontal CENTRADO. Los enlaces que no aparezcan en azul (ponerlos en negrita) y que tampoco esten subrayados.
+
+
+Un efecto hover sobre cada una de las opciones de menú. Cambia de color el fonde de cada opcion generando una caja con los bordes redondeados. Se invierten los colores del fonde de la cajita y del texto.

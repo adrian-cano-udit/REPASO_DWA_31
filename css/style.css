@@ -39,8 +39,22 @@ header > div > p {
     font-size: 1.5rem;
 }
 
-
+nav {
+    background-color:rgb(33, 0, 64);
+}
 
 nav > .menu_pr {
     list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* nav > .menu_pr > li {
+    margin: 0 0.3rem;
+} */
+
+nav > .menu_pr a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
 }
