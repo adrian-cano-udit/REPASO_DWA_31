@@ -41,4 +41,11 @@ Centrar todo el texto del header.
 Convertir el nav y ul y li, en un menu horizontal CENTRADO. Los enlaces que no aparezcan en azul (ponerlos en negrita) y que tampoco esten subrayados.
 
 
-Un efecto hover sobre cada una de las opciones de menú. Cambia de color el fonde de cada opcion generando una caja con los bordes redondeados. Se invierten los colores del fonde de la cajita y del texto.
+Un efecto hover sobre cada una de las opciones de menú. Cambia de color el fondo de cada opcion generando una caja con los bordes redondeados. Se invierten los colores del fondo de la cajita y del texto.
+
+
+## VARIABLES DE CSS:
+
+Las declaramos al principio del archivo de CSS en la psuedo-clase :root {}, los nombre deben comenzar con --nombre-de-variable
+
+Llamamos o invocamos con la función var(--valor)

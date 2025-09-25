@@ -1,3 +1,12 @@
+/* DECLARACIÓN DE VARIABLES DE CSS */
+:root {
+    --text-color: aliceblue;
+    --bg-color-primary: rgb(106, 90, 205);
+    --bg-color-menu: rgb(33, 0, 64);
+    --transition-time: 0.3s;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -30,7 +39,8 @@ h1 {
 
 header {
     background-color: slateblue;
-    color: aliceblue;
+    /* background-color: rgba(1, 1, 1, 0.5); */
+    color: var(--text-color);
 }
 
 
@@ -55,6 +65,15 @@ nav > .menu_pr {
 
 nav > .menu_pr a {
     text-decoration: none;
-    color: aliceblue;
+    color: var(--text-color);
     font-weight: bold;
+    padding: 0.4rem 0.8rem;
+    border-radius: 8px;
+    transition: var(--transition-time);
+}
+
+/* Selector para hover sobre las opciones del menú */
+nav > .menu_pr a:hover {
+    color: var(--bg-color-menu);
+    background-color: var(--text-color);
 }
