@@ -49,3 +49,24 @@ Un efecto hover sobre cada una de las opciones de menú. Cambia de color el fond
 Las declaramos al principio del archivo de CSS en la psuedo-clase :root {}, los nombre deben comenzar con --nombre-de-variable
 
 Llamamos o invocamos con la función var(--valor)
+
+Las variables pueden contener cualquier valor (colores, tamaños, etc...)
+
+## PSEUDO-CLASES
+
+div:first-child
+div:last-child
+div:nth-child(5)
+
+
+## FLEXBOX
+
+Guía definitiva de Flexbox -> https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+El flex-direction tiene como valor default -> row
+
+
+
+**25/09/2025
+
+Centrar los elementos del div con la clase content-text en el eje vertical. Con flexbox, si claro.
