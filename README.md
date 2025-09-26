@@ -70,3 +70,13 @@ El flex-direction tiene como valor default -> row
 **25/09/2025
 
 Centrar los elementos del div con la clase content-text en el eje vertical. Con flexbox, si claro.
+
+
+
+**26/09/2025
+
+Para la sección #prices ->
+
+Buscar referencias de cards para precios (de un servicio o app) como mínimo.
+
+Deben incluir un nombre o titulo del precio, el propio precio, un icono, y un botón (no hace falta que sea el elemento <button>)
