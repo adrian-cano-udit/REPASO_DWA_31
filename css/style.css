@@ -135,6 +135,26 @@ main > section.hero > div.content-features > .column > .feature > div {
 }
 
 
+/* FULL WIDTH */
+#full-w > div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#full-w > div > h3 {
+    font-size: 2.5rem;
+    opacity: 0;
+    color: aliceblue;
+    position: absolute;
+    transition: 0.6s;
+}
+
+#full-w > div:hover > h3 {
+    opacity: 1;
+}
+
 
 /* GALLERY */
 
