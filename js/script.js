@@ -63,3 +63,73 @@ let arr_animals = ["cat", "dog", "cow"];
 
 console.log(arr_animals);
 console.log(arr_animals[1]);
+
+
+// Ejmplo de objeto de JS
+
+let user154 = {
+    name: "Adrián",
+    lastname: "Cano",
+    age: 35,
+    location: "Madrid",
+    is_driver: true
+};
+
+let product574 = {
+    type: "shirt",
+    style: "long",
+    colors: ["#FFF", "#CCC", "#000"]
+}
+
+
+console.log(user154); // Accedemos al objeto completo
+console.log(user154.lastname); // Accedemos a una única clave y nos devolvería el valor que hay guardado
+
+
+// La funcion de utilidad alert() simplemenete crea una ventanita del navegador con un mensaje
+
+// alert("Hola soy un mensaje!");
+
+console.log("Ultimo log");
+
+// let username = window.prompt("¿Cómo te llamas?");
+// alert("Hola " + username);
+
+
+// FUNCIONES PROPIAS DE JS
+
+let product01 = 12.99;
+let product02 = 4.5;
+let product03 = 55;
+let product04 = 23.77;
+
+
+// Declaración de la función
+function calcTotal(param1, param2) {
+    // console.log("Este código está dentro de la función!")
+
+    let total_price = param1 + param2;
+    console.log(total_price);
+}
+
+// Llamada a la función
+calcTotal(product01, product02);
+calcTotal(product01, product04);
+calcTotal(product02, product03);
+
+
+
+// Función para saludar
+
+function greeting() {
+    console.log("Hola holita!");
+}
+
+
+// Crear una función que se llame greetUser() que haga 2 cosas:
+
+// Preguntar el nombre al usuario (y guardar la respuesta)
+
+// Mostrar el nombre del usuario junto con un saludito en una ventana popup
+
+// PISTA: la función se debe llamar desde el botón con el atributo onclick

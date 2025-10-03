@@ -137,3 +137,38 @@ Con estos números podemos realizar distintas operaciones:
 - Totalmente igual que... -> === (es más estricto y se recomienda su uso para evitar errores)
 
 Estas operaciones dan como resultado un tipo de dato especial que se llama boolean (true ó false)
+
+
+- Arrays (lista) -> se trata de un tipo de dato que me permite guardar una lista o coleccion de otros tipos de datos. estos pueden ser todos del mismo o de tipo diferentes.
+
+- Objeto (object) -> Es un tipo de dato complejo que me permite guardar de forma ordenada (clave: valor) y acceder a estos datos una vez declarados.
+
+- null y undefined
+
+
+
+## FUNCIONES DE JAVASCRIPT
+
+Las funciones o métodos son un conjunto de líneas de código que cumplen un trabajo determinado.
+
+Las funciones trabajan como una "caja negra" cuando son funciones ya definidas en el "core" del lenguaje, pero tambien tenemos la posibilidad de definir nuestras propias funciones.
+
+Por esto podemos decir que tenemos 2 tipos de funciones:
+
+- Las funciones de JS ya definidas dentro del propio código interno del lenguaje, las cuales nosotras podremos llamar y usar. Por ejemplo las funciones alert() y log() son funciones de este tipo que se conocen como built-in 
+
+- Las funciones que nosotros mismo definimos en nuestro código. JS nos permite definir tantas funciones como queramos y usarlas tantas veces como necesitemos.
+
+Estas funciones se declaran (crean) una sola vez en nuestro código y luego las podemos usar tantas veces como queramos.
+
+Para crear y usar una función propiavamos a seguir estos pasos:
+
+1. Declaramos la función propia con la palabra reservada: function
+
+2. Le damos un nombre a esta nueva función. El nombre lo decidimos nosotros y debe representar de forma clara el trabajo que lleva a cabo dicha función. El nombre de esta función incluye al final (y pegado) unos paréntesis. detrás de los paréntesis abrimos llaves {} 
+
+3. Dentro de las llaves escribiremos el código interno de la función.
+
+4. Cuando queramos usar la función la llamaremos o invocaremos por su nombre.
+
+Los datos pueden entrar dentro de una función como parámetros en los paréntesis.
