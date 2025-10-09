@@ -133,3 +133,26 @@ function greeting() {
 // Mostrar el nombre del usuario junto con un saludito en una ventana popup
 
 // PISTA: la función se debe llamar desde el botón con el atributo onclick
+
+
+
+
+
+
+// Selectores de JS
+
+// Desde nuestro archivo de JS podemos usar diferentes funciones built-in para seleccionar uno o varios elementos del HTML
+
+// El selector de JS que mas vamos a usar sera este:
+
+let btn = document.querySelectorAll('p');
+
+console.log(btn);
+
+// console.log(document);
+
+
+// para hacer referencia al documento de HTML, llamaremos a la variable document. Esta variable ya esta definida, no es necesario que la creemos nosotros y guarda en su interior todo el codigo de HTML.
+
+
+// Cuando quiero seleccionar solo un elemento usaré la función querySelector(), si queremos seleccionar varios elementos a la vez tendremos que usar querySelectorAll()

@@ -172,3 +172,14 @@ Para crear y usar una función propiavamos a seguir estos pasos:
 4. Cuando queramos usar la función la llamaremos o invocaremos por su nombre.
 
 Los datos pueden entrar dentro de una función como parámetros en los paréntesis.
+
+
+
+## SELECTORES DE JS:
+
+Funcionan de forma similar a los selectores de CSS
+
+1) querySelector("p") -> selecciona el primero que coincide con la busqueda
+
+2) querySelectorAll("div") -> selcciona TODOS los elementos que coincidan con la busqueda y genera un array.
+
